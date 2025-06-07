@@ -1,0 +1,37 @@
+{
+  "name": "@cefview/core-bridge",
+  "version": "0.0.1",
+  "description": "The core bridge object wrapper for CefView",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CefView/core-bridge.git"
+  },
+  "keywords": [
+    "CefView",
+    "Bridge",
+    "JavaScript"
+  ],
+  "author": "Sheen Tian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CefView/core-bridge/issues"
+  },
+  "homepage": "https://github.com/CefView/core-bridge#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.30",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.3.4",
+    "typescript": "^5.8.3"
+  }
+}
